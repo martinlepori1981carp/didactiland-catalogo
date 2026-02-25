@@ -180,8 +180,9 @@
 {
   "id": 23,
   "name": "Kit de arte",
-  "description": "",
-  "price": 9600,
+  "description": "Atril de 32 cm de alto x 21 cm ancho
++ lapicero.",
+  "price": 10000,
   "image": "images/kit-arte.jpg",
   "active": true
 }
