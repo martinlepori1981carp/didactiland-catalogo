@@ -40,6 +40,150 @@
       "price": 6900,
       "image": "images/sumblox.jpg",
       "active": true
-    }
+    },
+    {
+  "id": 6,
+  "name": "Discogol",
+  "description": "",
+  "price": 10500,
+  "image": "images/discogol.jpg",
+  "active": true
+},
+{
+  "id": 7,
+  "name": "Carro con cubos",
+  "description": "",
+  "price": 12500,
+  "image": "images/carro-cubos.jpg",
+  "active": true
+},
+{
+  "id": 8,
+  "name": "Camión portacoches",
+  "description": "",
+  "price": 8900,
+  "image": "images/camion-porta.jpg",
+  "active": true
+},
+{
+  "id": 9,
+  "name": "Rutas lógicas",
+  "description": "",
+  "price": 4100,
+  "image": "images/rutas-logicas.jpg",
+  "active": true
+},
+{
+  "id": 10,
+  "name": "Estrella Waldorf",
+  "description": "",
+  "price": 5300,
+  "image": "images/estrella-waldorf.jpg",
+  "active": true
+},
+{
+  "id": 11,
+  "name": "Caminos pre-escritura",
+  "description": "",
+  "price": 5300,
+  "image": "images/caminos-pre.jpg",
+  "active": true
+},
+{
+  "id": 12,
+  "name": "Piedras de equilibrio",
+  "description": "",
+  "price": 5200,
+  "image": "images/piedras.jpg",
+  "active": true
+},
+{
+  "id": 13,
+  "name": "Tangram",
+  "description": "",
+  "price": 3200,
+  "image": "images/tangram.jpg",
+  "active": true
+},
+{
+  "id": 14,
+  "name": "Avión",
+  "description": "",
+  "price": 3800,
+  "image": "images/avion.jpg",
+  "active": true
+},
+{
+  "id": 15,
+  "name": "Torre circular",
+  "description": "",
+  "price": 10300,
+  "image": "images/torre-circular.jpg",
+  "active": true
+},
+{
+  "id": 16,
+  "name": "Torre cuadrada",
+  "description": "",
+  "price": 10300,
+  "image": "images/torre-cuadrada.jpg",
+  "active": true
+},
+{
+  "id": 17,
+  "name": "Tren",
+  "description": "",
+  "price": 5500,
+  "image": "images/tren.jpg",
+  "active": true
+},
+{
+  "id": 18,
+  "name": "Encaje geométrico",
+  "description": "",
+  "price": 5500,
+  "image": "images/encaje-geo.jpg",
+  "active": true
+},
+{
+  "id": 19,
+  "name": "Juego de la memoria",
+  "description": "",
+  "price": 6800,
+  "image": "images/memoria.jpg",
+  "active": true
+},
+{
+  "id": 20,
+  "name": "Geoplano",
+  "description": "",
+  "price": 6100,
+  "image": "images/geoplano.jpg",
+  "active": true
+},
+{
+  "id": 21,
+  "name": "Muñecos equilibristas",
+  "description": "",
+  "price": 950,
+  "image": "images/equilibristas.jpg",
+  "active": true
+},
+{
+  "id": 22,
+  "name": "Números digitales",
+  "description": "",
+  "price": 12100,
+  "image": "images/numeros-digitales.jpg",
+  "active": true
+},
+{
+  "id": 23,
+  "name": "Kit de arte",
+  "description": "",
+  "price": 9600,
+  "image": "images/kit-arte.jpg",
+  "active": true
+}
   ]
 }
