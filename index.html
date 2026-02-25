@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didactiland - Catálogo Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-logo-title">
+                    <img src="logo.png" alt="Didactiland Logo" class="header-logo">
+                    <h1 class="header-title">Didactiland</h1>
+                </div>
+                <p class="header-subtitle">Armá tu pedido y enviámelo por WhatsApp</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Products Grid -->
+            <section class="products-section">
+                <div class="products-grid" id="productsGrid">
+                    <!-- Los productos se cargan aquí con JavaScript -->
+                </div>
+            </section>
+
+            <!-- Sidebar Resumen (Desktop) -->
+            <aside class="summary-sidebar" id="summarySidebar">
+                <div class="summary-content">
+                    <h2 class="summary-title">Resumen del pedido</h2>
+                    <div class="summary-items" id="summaryItems">
+                        <!-- Los items del resumen se cargan aquí -->
+                    </div>
+                    <div class="summary-divider"></div>
+                    <div class="summary-total">
+                        <span class="total-label">Total:</span>
+                        <span class="total-amount" id="totalAmount">$0</span>
+                    </div>
+                    <button class="btn btn-whatsapp" id="whatsappBtn" disabled>
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.325 0-2.651-.402-3.798-1.162l-.273-.163-.282.036C6.942 5.486 6.213 5.9 5.55 6.5c-.663.6-1.215 1.32-1.583 2.12-.368.8-.453 1.666-.25 2.504.203.838.632 1.604 1.22 2.201.588.597 1.354 1.026 2.191 1.23.837.204 1.704.119 2.504-.249.8-.368 1.52-.92 2.12-1.583.6-.663 1.014-1.392 1.22-2.169l.036-.282-.163-.273c-.76-1.147-1.162-2.473-1.162-3.798z"/>
+                        </svg>
+                        Enviar pedido por WhatsApp
+                    </button>
+                    <button class="btn btn-secondary" id="clearCartBtn">
+                        Vaciar carrito
+                    </button>
+                    <p class="empty-cart-message" id="emptyCartMessage" style="display: none;">
+                        Seleccioná al menos un producto
+                    </p>
+                </div>
+            </aside>
+        </main>
+
+        <!-- Mobile Summary (Fixed Bottom) -->
+        <div class="mobile-summary" id="mobileSummary">
+            <div class="mobile-summary-content">
+                <div class="mobile-total">
+                    <span class="mobile-total-label">Total:</span>
+                    <span class="mobile-total-amount" id="mobileTotalAmount">$0</span>
+                </div>
+                <button class="btn btn-whatsapp btn-mobile" id="whatsappBtnMobile" disabled>
+                    Enviar por WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

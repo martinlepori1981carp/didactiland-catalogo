@@ -1,0 +1,45 @@
+{
+  "whatsappNumber": "5493415321151",
+  "products": [
+    {
+      "id": 1,
+      "name": "Muro de equilibrio",
+      "description": "Medidas: 20 x 15 cm",
+      "price": 12100,
+      "image": "images/muro-equilibrio.jpg",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Ábaco de números",
+      "description": "Tablero: 55 x 15 cm | Números: 5 x 2,5 x 0,9 cm",
+      "price": 22100,
+      "image": "images/abaco-numeros.jpg",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Torre con encastre",
+      "description": "Base de 12 x 15 cm",
+      "price": 10500,
+      "image": "images/torre-encastre.jpg",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Tetris",
+      "description": "33 x 23 cm | 40 piezas",
+      "price": 5500,
+      "image": "images/tetris.jpg",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Sumblox",
+      "description": "Números 1-10 + 5 adicionales | Espesor 15 mm",
+      "price": 6900,
+      "image": "images/sumblox.jpg",
+      "active": true
+    }
+  ]
+}
