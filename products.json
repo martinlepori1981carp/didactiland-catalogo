@@ -190,27 +190,34 @@
   "name": "Sonajero Waldorf",
   "description": "",
   "price": 4400,
-  "image": "images/kit-arte.jpg",
+  "image": "sonajero.jpg",
   "active": true
 },
-{
   "id": 25,
+  "name": "Encaje waldorf",
+  "description": "12100",
+  "price": 4400,
+  "image": "encaje-waldorf.jpg",
+  "active": true
+},  
+{
+  "id": 26,
   "name": "Tablero sensorial montesori",
   "description": "",
   "price": 29300,
-  "image": "images/kit-arte.jpg",
-  "active": true
-},
-{
-  "id": 26,
-  "name": "Abecedario 56 cons. + 10 vocales",
-  "description": "",
-  "price": 28000,
-  "image": "images/kit-arte.jpg",
+  "image": "tablero.jpg",
   "active": true
 },
 {
   "id": 27,
+  "name": "Abecedario 56 cons. + 10 vocales",
+  "description": "",
+  "price": 28000,
+  "image": "tableroletras.jpg",
+  "active": true
+},
+{
+  "id": 28,
   "name": "Animales con ruedas",
   "description": "",
   "price": 3600,
