@@ -192,6 +192,30 @@
   "price": 4400,
   "image": "images/kit-arte.jpg",
   "active": true
+},
+{
+  "id": 25,
+  "name": "Tablero sensorial montesori",
+  "description": "",
+  "price": 29300,
+  "image": "images/kit-arte.jpg",
+  "active": true
+},
+{
+  "id": 26,
+  "name": "Abecedario 56 cons. + 10 vocales",
+  "description": "",
+  "price": 28000,
+  "image": "images/kit-arte.jpg",
+  "active": true
+},
+{
+  "id": 27,
+  "name": "Animales con ruedas",
+  "description": "",
+  "price": 3600,
+  "image": "",
+  "active": true
 }
   ]
 }
