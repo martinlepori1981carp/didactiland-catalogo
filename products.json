@@ -190,7 +190,7 @@
   "name": "Sonajero Waldorf",
   "description": "",
   "price": 4400,
-  "image": "sonajero.jpg",
+  "image": "images/sonajero.jpg",
   "active": true
 },
 {
@@ -198,7 +198,7 @@
   "name": "Encaje waldorf",
   "description": "12100",
   "price": 4400,
-  "image": "encaje-waldorf.jpg",
+  "image": "images/encaje-waldorf.jpg",
   "active": true
 },  
 {
@@ -206,7 +206,7 @@
   "name": "Tablero sensorial montesori",
   "description": "",
   "price": 29300,
-  "image": "tablero.jpg",
+  "image": "images/tablero.jpg",
   "active": true
 },
 {
@@ -214,7 +214,7 @@
   "name": "Abecedario 56 cons. + 10 vocales",
   "description": "",
   "price": 28000,
-  "image": "tableroletras.jpg",
+  "image": "images/tableroletras.jpg",
   "active": true
 },
 {
